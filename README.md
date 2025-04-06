@@ -2,6 +2,8 @@
 
 https://bellayevva.github.io/RecipeCollection/
 
+This is a frontend-only project. All data is static and handled via JavaScript.
+
 - - - RecipeCollection - - -
 
 [Multilingual and responsive recipe app with elegant light/dark themes. Browse breakfast and drink recipes in English, German, or Arabic.]
