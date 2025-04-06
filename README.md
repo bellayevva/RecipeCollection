@@ -10,17 +10,19 @@ Languages Supported:
 
 🇦🇪 Arabic
 
-      Features
 
-Beautiful light/dark mode switch between collections
 
-Fully translated UI and recipes (EN, DE, AR)
+Features
 
-Elegant design with responsive layout
+   Beautiful light/dark mode switch between collections
 
-Dynamic recipe switching with JavaScript
+   Fully translated UI and recipes (EN, DE, AR)
 
-Language selection with remembered preference
+   Elegant design with responsive layout
+
+   Dynamic recipe switching with JavaScript
+
+   Language selection with remembered preference
 
 Categories
 
