@@ -1,32 +1,34 @@
 # RecipeCollection
 
-Multilingual and responsive recipe collection app with a light and dark theme. Users can switch between breakfast and drinks, and view each recipe in English, German, or Arabic.
+https://bellayevva.github.io/RecipeCollection/
 
-Languages Supported:
+- - - RecipeCollection - - -
 
-🇬🇧 English
+[Multilingual and responsive recipe app with elegant light/dark themes. Browse breakfast and drink recipes in English, German, or Arabic.]
 
-🇩🇪 Deutsch
+- Languages:
 
-🇦🇪 Arabic
+English
 
+Deutsch
 
+Arabic
 
-Features
+- Features
 
-   Beautiful light/dark mode switch between collections
+Light & dark theme per collection
 
-   Fully translated UI and recipes (EN, DE, AR)
+Fully translated interface and content
 
-   Elegant design with responsive layout
+Responsive layout for mobile & desktop
 
-   Dynamic recipe switching with JavaScript
+Dynamic recipe switching with JavaScript
 
-   Language selection with remembered preference
+Language selection saved for next visit
 
-Categories
+- Categories
 
-  - Breakfast Collection
+- - Breakfast Collection
 
 Lemon Pancakes
 
@@ -34,10 +36,11 @@ Avocado Toast
 
 Rose Chia Pudding
 
-  - Drinks Collection
+- - Drinks Collection
 
 Spiced Apple Cider
 
 Chocolate Mocha
 
 Lavender Milk
+
