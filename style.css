@@ -1,0 +1,149 @@
+:root {
+  --bg-light: #fcf9f3;
+  --text-light: #333;
+  --accent-light: #bfa45c;
+
+  --bg-dark: #2e3d36;
+  --text-dark: #f0ece3;
+  --accent-dark: #a3b18a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background 0.4s, color 0.4s;
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.lang-switcher {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.nav-buttons, .recipe-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: var(--accent-light);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+}
+
+body.dark button {
+  background-color: var(--accent-dark);
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+button.active {
+  border: 2px solid white;
+  box-shadow: 0 0 10px var(--accent-light);
+}
+
+body.dark button.active {
+  box-shadow: 0 0 10px var(--accent-dark);
+}
+
+.section-btn {
+  background-color: transparent;
+  border: 2px solid var(--accent-light);
+  color: var(--accent-light);
+}
+
+.section-btn:hover {
+  background-color: var(--accent-light);
+  color: white;
+}
+
+body.dark .section-btn {
+  background-color: transparent;
+  border-color: var(--accent-dark);
+  color: var(--accent-dark);
+}
+
+body.dark .section-btn:hover {
+  background-color: var(--accent-dark);
+  color: black;
+}
+
+.recipe-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s forwards;
+}
+
+body.dark .recipe-card {
+  background-color: #2b2a2a;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quote {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  opacity: 0.8;
+}

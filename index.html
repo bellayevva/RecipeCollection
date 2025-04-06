@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switcher">
+      <button onclick="setLanguage('en')">🇬🇧</button>
+      <button onclick="setLanguage('de')">🇩🇪</button>
+      <button onclick="setLanguage('ar')">🇦🇪</button>
+    </div>
+    <header>
+      <h1 id="collection-title">Recipe Collection</h1>
+      <div class="nav-buttons">
+        <button class="section-btn" onclick="switchCollection('breakfast')">Breakfast</button>
+        <button class="section-btn" onclick="switchCollection('drinks')">Drinks</button>
+      </div>
+    </header>
+    <div class="recipe-buttons" id="recipe-buttons"></div>
+    <div id="recipe-container" class="fade-in"></div>
+    <div id="quote" class="quote"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
